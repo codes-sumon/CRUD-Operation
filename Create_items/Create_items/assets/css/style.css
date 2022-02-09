@@ -1,0 +1,118 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus, input:focus, textarea:focus, button:focus { 
+    outline: 0 solid 
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    
+}
+a:hover { text-decoration: none }
+
+
+.section-padding {
+    padding: 80px 0;
+}
+.white-box {
+    box-shadow: 0 0 10px #ccffff;
+    padding: 30px;
+}
+input[type="text"], input[type="email"], input[type="tel"], input[type="password"], input[type="url"], textarea {
+    background: #CCFFFF none repeat scroll 0 0;
+    border: medium none;
+    padding: 15px;
+}
+.contact-form input, .contact-form textarea {
+    margin-bottom: 15px;
+    width: 100%;
+}
+input[type="submit"] {
+    margin: 0;
+    width: auto;
+}
+.contact-form textarea {
+    height: 143px;
+    resize: none;
+}
+.contact-form input[type="submit"], .contact-form button[type="submit"] {
+    background: #52b0fb none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 3px;
+    color: #fff;
+    padding: 15px 30px;
+    margin-bottom: 15px;
+}
+.colored-box {
+    background: #52b0fb none repeat scroll 0 0;
+    color: #fff;
+    min-height: 460px;
+    padding: 30px;
+}
+.colored-box a {
+    color: #fff;
+}
+.contact-info {
+    margin-bottom: 30px;
+    padding-left: 45px;
+    position: relative;
+}
+.contact-info i.fa {
+    font-size: 20px;
+    left: 0;
+    position: absolute;
+    top: 3px;
+}
+.colored-box h4, .white-box h4 {
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.social-icons a {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 50%;
+    box-shadow: 0 0 3px #999;
+    color: #333;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 10px;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+    width: 40px;
+}
+.social-icons a:hover {
+    box-shadow: 0 0 0;
+    color: #52b0fb;
+}
+
+.tabletext{
+    text-align:center;
+}
+
+.navbar-brand img {
+    margin-top: -10px;
+    max-width: 50px;
+    max-height: 45px;
+}
